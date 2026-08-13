@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Centered info table on the integration form page */
+.integration-info-table-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.integration-info-table {
+  width: 100%;
+  max-width: 560px;
+  border-collapse: collapse;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.integration-info-table thead tr {
+  background-color: #f8f9fa;
+}
+
+.integration-info-table th {
+  padding: 10px 18px;
+  text-align: left;
+  font-weight: 600;
+  color: #495057;
+  border-bottom: 1px solid #dee2e6;
+  white-space: nowrap;
+}
+
+.integration-info-table td {
+  padding: 10px 18px;
+  font-weight: 400;
+  color: #212529;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .integration-info-table {
+    font-size: 13px;
+  }
+
+  .integration-info-table th,
+  .integration-info-table td {
+    padding: 8px 12px;
+  }
+}
